@@ -6,5 +6,8 @@ __pycache__/
 logs/
 data/raw/
 data/markets/
+data/markets.zip
 openreward-cookbook/
+traderenv/
 PLAN-retinal-agent.md
+quickstart.py
