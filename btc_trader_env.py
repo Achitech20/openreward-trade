@@ -69,8 +69,8 @@ TIME_COST = {
 # on production, it puts all data into /orwd_data/ for the environment (note: separate from sandbox mounting)
 
 if os.path.exists("/orwd_data"):
-    MARKET_INDEX_PATH = Path("orwd_data") / "markets" / "market_index.csv"
-    MARKETS_DIR = Path("orwd_data") / "markets"
+    MARKET_INDEX_PATH = Path("/orwd_data") / "markets" / "market_index.csv"
+    MARKETS_DIR = Path("/orwd_data") / "markets"
 else:
     MARKET_INDEX_PATH = Path(__file__).resolve().parent / "data" / "markets" / "market_index.csv"
     MARKETS_DIR = Path(__file__).resolve().parent / "data" / "markets"
